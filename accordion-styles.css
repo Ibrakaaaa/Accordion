@@ -1,0 +1,170 @@
+.wrapper {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+}
+
+.accordion {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  max-width: 500px;
+}
+
+.item {
+  padding: 1rem;
+  background-color: lightblue;
+  width: 100%;
+  /* padding: 1rem; */
+  margin: 0.5rem;
+  max-width: 500px;
+  height: auto;
+}
+
+.title {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 2rem;
+  padding: 1rem 0 ;
+  cursor: pointer;
+}
+
+.accordion-btn {
+  color: #000;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* min-width: 285px; */
+  /* width: 2rem;
+  height: 2rem; */
+  font-size: 4rem;
+  /* padding: 1rem; */
+  border: none;
+  outline: none;
+  margin: 1rem;
+  font-size: 2rem;
+  cursor: pointer;
+  background-color: #eee;
+
+}
+
+.span {
+   width: 1.5rem;
+  height: 1.5rem;
+  outline: none;
+  border: none;
+  background-color: transparent;
+  color: #fff;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .wrapper {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+
+.wrapper .btn {
+  background-color: rgb(180, 39, 39);
+  border: none;
+  padding: 1rem 2rem;
+  border-radius: 0.3rem;
+  color: #fff;
+  font-size: 1.2rem;
+  cursor: pointer;
+  margin: 0 auto;
+}
+
+.accordian {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  max-width: 500px;
+}
+
+.item {
+  max-width: 500px;
+  background-color: rgb(73, 21, 21);
+  margin: 0.3rem;
+  padding: 1rem;
+  color: #fff;
+  cursor: pointer;
+}
+
+.title {
+  gap: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  color: #fff;
+}
+
+.title button {
+  width: 3rem;
+  height: 3rem;
+  font-size: 2rem;
+  font-weight: bold;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  color: #aaa;
+  background-color: transparent;
+} */
